@@ -8,7 +8,7 @@ const Header = () => {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="assets/img/profile-img.jpg"
+              src="assets/img/wyn_cj.jpg"
               alt
               className="img-fluid rounded-circle"
             />
