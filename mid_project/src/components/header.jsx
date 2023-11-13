@@ -6,33 +6,17 @@ const Header = () => {
       {/* ======= Header ======= */}
       <header id="header">
         <div className="d-flex flex-column">
-          <div className="profile">
-            <img
-              src="assets/img/wyn_cj.jpg"
-              alt
-              className="img-fluid rounded-circle"
-            />
-            <h1 className="text-light">
-              <a href="index.html">Wayne Gilbert Wagiuw</a>
-            </h1>
-            <div className="social-links mt-3 text-center">
-              <a href="#" className="twitter">
-                <i className="bx bxl-twitter" />
-              </a>
-              <a href="#" className="facebook">
-                <i className="bx bxl-facebook" />
-              </a>
-              <a href="#" className="instagram">
-                <i className="bx bxl-instagram" />
-              </a>
-              <a href="#" className="google-plus">
-                <i className="bx bxl-skype" />
-              </a>
-              <a href="#" className="linkedin">
-                <i className="bx bxl-linkedin" />
-              </a>
-            </div>
-          </div>
+        <div className="profile">
+                    <img src="src/assets/img/wyn_cj.jpeg" alt className="img-fluid rounded-circle" />
+                    <h1 className="text-light"><a href="index.html">Wayne Gilbert Wagiuw</a></h1>
+                    <div className="social-links mt-3 text-center">
+                    <a href="#" className="twitter"><i className="bi bi-instagram" /></a>
+                    <a href="#" className="facebook"><i className="bi bi-facebook" /></a>
+                    <a href="#" className="instagram"><i className="bi bi-threads" /></a>
+                    <a href="#" className="google-plus"><i className="bi bi-skype" /></a>
+                    <a href="#" className="linkedin"><i className="bi bi-linkedin" /></a>
+                    </div>
+                </div>
           <nav id="navbar" className="nav-menu navbar">
             <ul>
               <li>
